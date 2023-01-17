@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+
+
+nav {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 100px;
+}
+ img {
+ 	width: 50px;
+ 	height: 50px;
+
+ }
+
+ ul {
+ 	width: 70%;
+ 	display: flex;
+ 	list-style: none;
+ 	justify-content:space-around ;
+ }
+
+ li {
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size:20pt ;
+
+ }
+
+ a {
+ 	text-decoration: none;
+ }
+
+
+
+main {
+
+
+	height: 120vh;
+	background-color: lightblue;
+	background-image: url(123.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.connect {
+	height: 450px;
+	width: 500px;
+	background-color: white;
+	position: absolute;
+	top:330px;
+	left: 250px;
+	border-radius: 7%;
+	opacity: 80%;
+	padding-left: 20px;
+}
+
+.connect>p {
+	font-size: 45pt;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+
+}
+
+button {
+	width: 150px;
+	height: 45px;
+	margin: 20px;
+
+}
+
+#btn1 {
+	border-radius: 7px;
+	border: none;
+	background-color: #FF6347;
+	color: white;
+	font-size: 14pt;
+
+}
+
+#btn2 {
+	border-radius: 7px;
+	color: DarkRed;
+	font-size: 14pt;
+
+}
+
+
+.services {
+	height: 100vh;
+	background-color:lightcoral;
+}
+
+
+.projects {
+	height: 100vh;
+	background-color: lightgrey;
+}
+
+footer {
+	height: 150px;
+	background-color: grey;
+}
